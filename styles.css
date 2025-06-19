@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e1; /* 淺米色 */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* 置中對齊 */
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #f0b3d2; /* 粉紅色 */
+    font-size: 2em; /* 字體增大 */
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #d1e7e9; /* 淺藍色 */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button, .back-button, .big-button {
+    display: inline-block;
+    margins: 10px;
+    padding: 15px 30px; /* 按鈕變大 */
+    background-color: #a2d2ff; /* 淺藍色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5em; /* 字體增大 */
+}
+
+.button:hover, .back-button:hover, .big-button:hover {
+    background-color: #99d5ff; /* 更淺的藍色 */
+}
+
+#timer-display, #stopwatch-display, #quote-display {
+    font-size: 1.5em; /* 顯示文字的字體增大 */
+}
